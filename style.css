@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('/img/bg3.jpg') no-repeat center center fixed; 
+    background: url('bg3.jpg') no-repeat center center fixed; 
     background-size: cover; 
 }
 
@@ -62,7 +62,7 @@ body {
 #data-screen {
     min-height: 100vh;
     padding: 20px;
-    background: url('/img/bg3.jpg') no-repeat center center fixed;
+    background: url('bg3.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
