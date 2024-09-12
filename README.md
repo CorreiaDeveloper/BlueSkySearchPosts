@@ -34,7 +34,7 @@ Certifique-se de ter o Node.js e o npm instalados. Além disso, você precisará
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu_usuario/repositorio.git
+    git clone https://github.com/CorreiaDeveloper/BlueSkySearchPosts.git
     ```
 
 2. Navegue até o diretório do projeto:
