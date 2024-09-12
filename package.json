@@ -1,0 +1,31 @@
+{
+  "name": "bluesky-bot-darok",
+  "version": "1.0.0",
+  "description": "Sentiu!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.6",
+    "@atproto/oauth-client": "^0.2.0",
+    "atproto-firehose": "^0.2.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "moment": "^2.30.1",
+    "readline-sync": "^1.4.10",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "live-server": "^1.2.2",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

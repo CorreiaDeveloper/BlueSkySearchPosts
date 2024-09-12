@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Publicações</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+
+<body>
+    <div id="login-screen">
+        <div id="login-container">
+            <div id="left-side">
+                <img src="img/img.jpg" alt="Imagem do lado esquerdo">
+            </div>
+            <div id="right-side">
+                <form id="login-form">
+                    <label for="handle">Handle:</label>
+                    <input type="text" id="handle" name="handle" required>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="data-screen" style="display: none;">
+        <form id="data-form">
+            <label for="term">Termo:</label>
+            <input type="text" id="term" name="term" required>
+            <label for="start-date">Início:</label>
+            <input type="datetime-local" id="start-date" name="start-date" required>
+            <label for="end-date">Fim:</label>
+            <input type="datetime-local" id="end-date" name="end-date" required>
+            <button type="submit">Buscar</button>
+        </form>        
+        <div class="table-container">
+            <table id="resultados">
+                <thead>
+                    <tr>
+                        <th class="truncate">Registro</th>
+                        <th class="hide-on-small">Autor</th>
+                        <th class="hide-on-small">Type</th>
+                        <th class="hide-on-small">Reply Count</th>
+                        <th class="hide-on-small">Repost Count</th>
+                        <th class="hide-on-small">Like Count</th>
+                        <th class="hide-on-small">Quote Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dados serão inseridos aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
